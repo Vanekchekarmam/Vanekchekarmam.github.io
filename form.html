@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,700" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+
+        <!-- Главный слайдер с хедером -->
+        <div class="header-main padding-site">
+            <a href="index.html" class="logo"><img src="images/logo.svg" alt="logo"></a>
+            <ul class="menu">
+                <li><a href="index.html" class="menu-link">HOME</a></li>
+                <li><a href="products.html" class="menu-link">PRODUCTS</a></li>
+                <li><a href="form.html" class="menu-link active">FORM</a></li>
+
+                <li><a href="contact.html" class="menu-link">CONTACT</a></li>
+                <li><a href="#" class="menu-link menu-link-search"><img src=images/search.svg alt="search"></a></li>
+            </ul>
+        </div>
+        <div>
+        <fieldset style="width: 400px; margin: 0 auto; font-size: 30px; border-color: red; border-radius: 20">
+        <form action="action.html">
+        <legend>Your order</legend>
+        <label>Email:<br />
+        <input type="text" style="width: 350px; height: 20px" name="email" id="email"/></label><br />
+        <label>Name<br />
+        <input type="text" style="width: 350px; height: 20px" name="password" id="password"/></label><br>
+        <label>Surname:<br />
+        <input type="text" style="width: 350px; height: 20px" name="mobile" id="mobile"/></label><br />
+        <label>Telephone:<br />
+        <input type="text" style="width: 350px; height: 20px" name="telephone" id="telephone"/></label><br>
+        <input type="submit" class="button" value="Submit" onclick="getData()">
+    </form>
+    </fieldset>
+        </div>
+        <div class="footer padding-site">
+            <div class="footer-main">
+                <div class="footer-contact">
+                    <h3 class="footer-headline">Contact Us</h3>
+                    <p class="footer-adress">132A Bridge Road Richmond VIC Australia.</p>
+                    <p class="footer-phone-mail">Talk to us on 1300 132<br>info@interior.com</p>
+                </div>
+                <div class="footer-information">
+                    <h3 class="footer-headline">Useful Information</h3>
+                    <div class="footer-information-blocks">
+                        <div class="footer-information-block1">
+                            <a href="#" class="footer-information-h4">Sales terms</a>
+                            <a href="#" class="footer-information-h4">Customer care</a>
+                            <a href="#" class="footer-information-h4">Delivery</a>
+                        </div>
+                        <div class="footer-information-block2">
+                            <a href="#" class="footer-information-h4">Architect accounts</a>
+                            <a href="#" class="footer-information-h4">Careers</a>
+                            <a href="#" class="footer-information-h4">Exchanges & returns</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-intouch">
+                    <h3 class="footer-headline">Let’s Stay in Touch!</h3>
+                    <p class="footer-phone-mail">Suscribe to know about our latest news, products and<br> special offers just for suscribers.</p>
+                    <input class="footer-input-mail" type="email" placeholder="your email address">
+                    <!-- Добавить самолётик для отправки -->
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <h4 class="footer-bottom-h4">&copy; Copyright - INTERIOR 2016. All Rights Reserved.</h4>
+                <div class="footer-bottom-social"><img src="images/social-links.jpg" alt=""></div>
+                <h4 class="footer-bottom-h4">Terms & Conditions / Privacy policy & Cookies</h4>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
